@@ -6,6 +6,8 @@
   "author": "eramirez3000",
   "license": "MIT",
   "dependencies": {
+    "hoek": "^5.0.3",
+    "lodash": "^4.17.10",
     "npm": "^6.0.1",
     "whatwg-fetch": "1.0.0"
   },
