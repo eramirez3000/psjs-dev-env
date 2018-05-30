@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": " npm-run-all --parallel security-check open:src ",
-    "open:src": "node buildScripts/srcServer.js",
+    "open:src": "babel-node buildScripts/srcServer.js",
     "security-check": "nsp check",
     "localtunel": "lt --port 3000",
     "share": " npm-run-all --parallel open:src localtunel "
@@ -50,6 +50,7 @@
     "nsp": "^3.2.1",
     "numeral": "^2.0.6",
     "open": "0.0.5",
+    "raw-loader": "^0.5.1",
     "rimraf": "^2.6.2",
     "style-loader": "^0.21.0",
     "webpack": "^4.9.1",
