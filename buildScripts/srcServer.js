@@ -1,10 +1,10 @@
-//var express =     require( 'express');
 import express from 'express';
-import  path from 'path';
-import  open from 'open';
+import path from 'path';
+import open from 'open';
 import webpack from 'webpack';
 import config from '../webpack.config.dev';
 import webpackDevMiddleWare from 'webpack-dev-middleware';
+
 //==> Esta es un comentariro
 const port = 3000;
 const app = express();
